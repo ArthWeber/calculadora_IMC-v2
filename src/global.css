@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+:root {
+    --primary-color: #4CAF50; /* Verde */
+    --secondary-color: #2196F3; /* Azul */
+    --accent-color: #FF9800; /* Laranja */ 
+    --background-color: #FFFFFF; /* Fundo claro */
+    --secondary-background-color: #dddddd; /* Fundo secundário */
+    --text-color: #333333; /* Texto principal */
+    --text-secondary-color: #666666; /* Texto secundário */
+}
+
+.container {
+    max-width: 720px;
+    margin: 20% auto;
+    padding: 20px;
+    background-color: var(--secondary-background-color);
+    border-radius: 8px;  
+}
+
+/* Botões */
+button {
+    display: flex;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    align-items: center;    
+}
+
+button:hover {
+    background-color: var(--accent-color);
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    border: 1px solid var(--secondary-background-color);
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+
+
