@@ -1,4 +1,6 @@
 import React from 'react';
+import './Result.module.css';
+import '../../global.css';
 
 const Result = ({ username, height, weight }) => {
     const calculateIMC = () => {
@@ -12,12 +14,8 @@ const Result = ({ username, height, weight }) => {
         imc >= 18.5 && imc < 24.9 ? 'Peso normal' :
             imc >= 25 && imc < 29.9 ? 'Sobrepeso' : 'Obesidade';
 
-    const resultPrint = () => {
-        window.print();
-    }
-
     return (
-        <div>
+        <div className='result'>
             <h2>Resultado do IMC</h2>
             <p>Olá, {username}!</p>
             <p>Com base nas informações fornecidas:</p>
@@ -30,7 +28,6 @@ const Result = ({ username, height, weight }) => {
             <p>
                 Lembre-se: o IMC é uma estimativa. Para avaliar melhor sua saúde, consulte um profissional de saúde!
             </p>
-            <button onClick={resultPrint}>Imprimir</button>
         </div>
     )
 }

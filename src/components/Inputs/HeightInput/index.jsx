@@ -1,4 +1,6 @@
 import React from 'react';
+import './height.module.css';
+import '../../../global.css';
 
 const HeightInput = ({ height, setHeight, username }) => {
 
@@ -8,8 +10,8 @@ const HeightInput = ({ height, setHeight, username }) => {
     };
 
     return (
-        <div>
-            <h2>Seja bem-vindo, {username}!</h2>
+        <div className='height'>
+            <h2>Seja bem-vindo, <span>{username}</span>!</h2>
             <p>Por favor, me informe sua altura (ex: 1,70):</p>
             <input type="text"
                 value={height}

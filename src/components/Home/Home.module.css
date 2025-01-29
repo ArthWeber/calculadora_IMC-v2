@@ -1,0 +1,17 @@
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 40px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+span {
+    color: var(--error-color);
+}
