@@ -1,6 +1,5 @@
 import React from 'react';
 import './Result.module.css';
-import '../../global.css';
 
 const Result = ({ username, height, weight }) => {
     const calculateIMC = () => {
