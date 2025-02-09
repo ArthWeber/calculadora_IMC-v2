@@ -1,5 +1,5 @@
 import React from 'react';
-import './Height.module.css';
+import './HeightInput.module.css';
 
 const HeightInput = ({ height, setHeight, username }) => {
 
