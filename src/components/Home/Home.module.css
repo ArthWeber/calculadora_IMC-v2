@@ -14,3 +14,4 @@
 
 :global(span) {
     color: var(--error-color);
+}
