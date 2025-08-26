@@ -1,3 +1,30 @@
-.result button{
-    background-color: red;
+.result {
+    padding: 20px;
+    background-color: var(--secondary-background-color);
+    border-radius: 8px;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.subtitle {
+    margin-top: 20px;
+    color: var(--secondary-color);
+}
+
+.text {
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.list {
+    margin-bottom: 15px;
+    padding-left: 20px; /* recuo para lista */
+    color: var(--text-color);
+}
+
+.list li {
+    margin-bottom: 5px;
 }
