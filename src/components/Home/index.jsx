@@ -1,5 +1,5 @@
-import React from "react";
 import './Home.module.css';
+import '../../global.css';
 
 function Home({ username, setUsername }) {
 
