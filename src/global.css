@@ -1,20 +1,16 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     list-style: none;
 }
 
-/* Fonte e cores base */
 body {
-    font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
-    line-height: 1.5; /* melhora legibilidade */
 }
 
-/* Variáveis globais */
 :root {
     --primary-color: #4CAF50; /* Verde */
     --secondary-color: #2196F3; /* Azul */
@@ -26,16 +22,14 @@ body {
     --error-color: #F44336; /* Vermelho */
 }
 
-/* Container principal */
 .container {
     max-width: 720px;
-    margin: 100px auto; /* antes era 20% auto → muito variável */
+    margin: 20% auto;
     padding: 20px;
     background-color: var(--secondary-background-color);
     border-radius: 8px;  
-}
+} 
 
-/* Passos */
 .step {
     width: 100%;
 }
@@ -61,9 +55,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    align-items: center;  
-    justify-content: center; /* centraliza ícones + texto */
-    font-family: inherit; /* garante uso da Roboto */
+    align-items: center;    
 }
 
 button:hover {
@@ -78,7 +70,6 @@ input {
     width: 100%;
     margin-bottom: 15px;
     font-size: 16px;
-    font-family: inherit; /* garante Roboto */
 }
 
 input:focus {
@@ -89,12 +80,6 @@ input:focus {
 /* Títulos */
 h1, h2, h3 {
     color: var(--primary-color);
-    margin-bottom: 10px; /* espaço consistente */
-}
-
-/* Texto normal */
-p {
-    margin-bottom: 10px;
 }
 
 /* Texto de erro */
