@@ -1,17 +1,23 @@
-:global(h1), :global(h2), :global(h3) {
+.home {
+    padding: 20px;
+}
+
+.home__title {
     margin-bottom: 20px;
+    color: var(--primary-color);
 }
 
-:global(p) {
+.textInfo {
     margin-bottom: 10px;
+    color: var(--text-color);
 }
 
-:global(h3) {
+.subtitle {
     margin-top: 40px;
     text-align: center;
     color: var(--secondary-color);
 }
 
-:global(span) {
+.highlight {
     color: var(--error-color);
 }
